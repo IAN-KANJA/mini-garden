@@ -3,9 +3,11 @@ import Logo from './components/Logo';
 import './App.css';
 
 function App() {
-  return (
-  
-  );
+  return (   <>
+   
+    <Logo />;
+    <AddPlant />
+    </>);
 }
 
 export default App;
