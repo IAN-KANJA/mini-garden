@@ -1,3 +1,4 @@
+import React from "react"
 function GardenCard({id ,image ,name ,price}){
     return(
         <div className="gardencard">
