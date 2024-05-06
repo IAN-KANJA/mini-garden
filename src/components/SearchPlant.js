@@ -8,3 +8,5 @@ function Search({search,setsearch}) {
         type="text"
         id="search"
         placeholder="Type a name to search..."
+        value ={search}
+        onChange={(e) => setsearch(e.target.value)}
