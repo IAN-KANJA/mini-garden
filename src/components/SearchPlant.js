@@ -10,3 +10,6 @@ function Search({search,setsearch}) {
         placeholder="Type a name to search..."
         value ={search}
         onChange={(e) => setsearch(e.target.value)}
+      />
+    </div>
+  );
