@@ -13,3 +13,6 @@ function Search({search,setsearch}) {
       />
     </div>
   );
+}
+
+export default Search;
