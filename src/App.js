@@ -3,6 +3,7 @@ import './App.css';
 import AddPlant from './components/AddPlant';
 import Logo from './components/Logo';
 import Search from './components/SearchPlant';
+import GardenCollection from './components/GardenCollection';
 
 
 
@@ -14,6 +15,8 @@ function App() {
     <Logo />;
     <AddPlant />
     <Search />
+    <GardenCollection />
+    
 
     </>
    
@@ -21,3 +24,6 @@ function App() {
 }
 
 export default App;
+
+
+
