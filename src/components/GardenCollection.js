@@ -1,19 +1,16 @@
 import React from 'react';
+import GardenCard from './PlantCard';
 
 
 
-const GardenCollection = () => {
-   
-
+const GardenCollection = ({plants}) => {
   return (
     <div>
       <h1>Garden-Collection</h1>
-      <GardenCard />
-      <GardenCard />
-      <GardenCard />
-      <GardenCard />
-      <GardenCard />
-      
+      {plants.map((plant) => (
+      <GardenCard key={plant.id} {...plant} />
+       ))}
+
     </div>
   );
 };

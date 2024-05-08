@@ -3,7 +3,7 @@
       {
         "id": 1,
         "name": "Aloe",
-        "image": "./images/aloe.jpg",
+        "image": "https://naturalpoland.com/wp-content/uploads/aloe-vera-in-africa.jpg",
         "price": 15.99
       },
       {
@@ -27,7 +27,7 @@
       {
         "id": 5,
         "name": "Jade",
-        "image": "./images/jade.jpg",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/jade-plant-1-645157c445e14.jpg?resize=980:*",
         "price": 10.37
       },
       {
