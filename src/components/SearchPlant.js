@@ -12,6 +12,7 @@ function Search({search,setsearch}) {
         onChange={(e) => setsearch(e.target.value)}
       />
     </div>
+
   );
 }
 
