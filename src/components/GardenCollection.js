@@ -1,25 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import './GardenCollection.css';
+
 
 const GardenCollection = () => {
-    const [plants, setPlants] = useState([]);
-
-    useEffect(() => {
-      fetchPlants();
-    }, []);
-  
-    const fetchPlants = async () => {
-      try {
-        const response = await fetch('db.json');
-        const jsonData = await response.json();
-        setPlants(jsonData.bots);
-      } catch (error) {
-        console.error('Error fetching data: ', error);
-      }
-    };
+   
 
   return (
-    <div className="garden-collection-container">
+    <div>
       <h1>Garden-Collection</h1>
       <ul>
         {plants.map(plant => (
@@ -34,5 +20,6 @@ const GardenCollection = () => {
   );
 };
  export default GardenCollection;
+
 
 
