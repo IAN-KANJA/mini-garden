@@ -1,0 +1,13 @@
+.add-plant-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    width: 300px; /* Example width */
+    margin: 0 auto; /* Center the container horizontally */
+    font-family: Arial, sans-serif; /* Example font family */
+    color: #333; /* Example text color */
+}
