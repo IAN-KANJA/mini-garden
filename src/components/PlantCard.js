@@ -16,6 +16,7 @@ function GardenCard({id ,image ,name ,price}){
       }
     };
     return(
+
         <div className="gardencard">
         <ul>
         {plants.map(plant => (
@@ -27,6 +28,7 @@ function GardenCard({id ,image ,name ,price}){
         ))}
         </ul>
             <button>IN STOCK</button>
+
            </div>
     )
     }

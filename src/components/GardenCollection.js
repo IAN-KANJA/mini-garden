@@ -1,6 +1,7 @@
 import React from 'react';
 import GardenCard from './PlantCard';
 
+
 const GardenCollection = () => {
    
 

@@ -5,6 +5,8 @@ import Logo from './components/Logo';
 import Search from './components/SearchPlant';
 
 
+
+
 function App() {
   return (
     <>
@@ -12,6 +14,7 @@ function App() {
     <Logo />;
     <AddPlant />
     <Search />
+
     </>
    
   );
