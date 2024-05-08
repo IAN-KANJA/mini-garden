@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import './GardenCollection.css';
 
 const GardenCollection = () => {
     const [plants, setPlants] = useState([]);
@@ -19,7 +19,7 @@ const GardenCollection = () => {
     };
 
   return (
-    <div>
+    <div className="garden-collection-container">
       <h1>Garden-Collection</h1>
       <ul>
         {plants.map(plant => (

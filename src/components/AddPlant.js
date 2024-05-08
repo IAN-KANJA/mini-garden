@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './AddPlant.css';
 
  function AddPlant() {
   return (
-    <div >AddPlant</div>
+    <div div className="add-plant-container">AddPlant</div>
   )
 }
 export default AddPlant;
