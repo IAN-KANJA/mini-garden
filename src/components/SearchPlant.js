@@ -13,4 +13,4 @@ const Search = () => {
 
 };
 
-export d
+export default Search;
