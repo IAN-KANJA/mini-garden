@@ -1,25 +1,15 @@
+
 import React, { useState, useEffect } from 'react';
 
+
 const GardenCollection = () => {
-  // Define state for any stateful variables you need
-  const [plants, setPlants] = useState([]);
+   
 
-  // useEffect can be used for fetching data or any other side effects
-  useEffect(() => {
-    // Example: Fetch plants data from an API
-    fetch('http://localhost:6001/plants')
-      .then(response => response.json())
-      .then(data => {
-        setPlants(data);
-      })
-      .catch(error => {
-        console.error('Error fetching plants data:', error);
-      });
-  }, []);
-
+const GardenCollection = ({plants}) => {
   return (
     <div>
       <h1>Garden-Collection</h1>
+
       <ul>
         {plants.map(plant => (
           <li key={plant.id}>
@@ -29,6 +19,12 @@ const GardenCollection = () => {
           </li>
         ))}
       </ul>
+
+      {plants.map((plant) => (
+      <GardenCard key={plant.id} {...plant} />
+       ))}
+
+
     </div>
   );
 };
