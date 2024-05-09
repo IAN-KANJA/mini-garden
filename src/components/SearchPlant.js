@@ -1,16 +1,18 @@
-const Search = () => {
-    return (
-        <div className="searchbar">
-            <label htmlFor="search">Search Plants:</label>
-            <input
-                type="text"
-                id="search"
-                placeholder="Type a name to search..."
-                onChange={(e) => console.log("Searching...")}
-            />
-        </div>
-    );
+import { useState } from "react";
 
-};
+function SearchPlant({ searchInput, setsearchInput }) {
+  return (
+    <div>
+      <h4 className="font-bold text-xl">Search Plants:</h4>
+      <input
+        type="text"
+        placeholder="Type a name to search"
+        className="input.com"
+        value={searchInput}
+        onChange={(e) => setsearchInput(e.target.value)}
+      />
+    </div>
+  );
+}
 
-export d
+export default SearchPlant;

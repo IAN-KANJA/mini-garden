@@ -6,6 +6,10 @@ import { useEffect, useState } from 'react';
 import './index.css'
 function App() {
   const [plants, setPlants] = useState([]);
+const [searchInput, setSearchInput] = useState('')
+
+console.log(searchInput);
+
   useEffect(() => {
     fetch(' http://localhost:3000/plants', {
       method: 'GET',
@@ -14,16 +18,20 @@ function App() {
       }
     }).then((res) => res.json())
       .then((data) => setPlants(data));
-  }, [])
+  }, []);
+
+const filteredPlants = plants.filter((plant) => plant.name.toLowerCase().includes(searchInput.toLowerCase()))
+
+
   return (
     <>
    
     <Logo />;
     <AddPlant />
-    <Search />
+    <Search searchInput={searchInput} setsearchInput={setSearchInput}/>
 
 
-    <GardenCollection plants={plants}/>
+    <GardenCollection plants={filteredPlants}/>
 
     </>
    
