@@ -1,12 +1,17 @@
+
 import React, { useState, useEffect } from 'react';
 
+import React from 'react';
+import GardenCard from './GardenCard';
 
-const GardenCollection = () => {
-   
 
+
+
+const GardenCollection = ({plants}) => {
   return (
     <div>
       <h1>Garden-Collection</h1>
+
       <ul>
         {plants.map(plant => (
           <li key={plant.id}>
@@ -16,6 +21,12 @@ const GardenCollection = () => {
           </li>
         ))}
       </ul>
+
+      {plants.map((plant) => (
+      <GardenCard key={plant.id} {...plant} />
+       ))}
+
+
     </div>
   );
 };
