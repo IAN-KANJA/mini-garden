@@ -3,7 +3,7 @@ import GardenCollection from './components/GardenCollection';
 import Logo from './components/Logo';
 import Search from './components/SearchPlant';
 import { useEffect, useState } from 'react';
-import "./index.css"
+import './index.css'
 function App() {
   const [plants, setPlants] = useState([]);
   useEffect(() => {
