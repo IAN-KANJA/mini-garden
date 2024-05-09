@@ -37,5 +37,9 @@ function Search({search,setsearch}) {
 
 };
 
+<<<<<<< HEAD
 >>>>>>> 3af8bde63d8fa2d932b376455aaa632ff6645d22
 export d
+=======
+export default Search;
+>>>>>>> main
