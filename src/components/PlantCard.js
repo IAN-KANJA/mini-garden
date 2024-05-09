@@ -1,4 +1,6 @@
 import React,{ useState, useEffect } from "react"
+import "./PlantCard.css";
+
 function GardenCard({id ,image ,name ,price}){
     const [plants, setPlants] = useState([]);
 
@@ -17,7 +19,7 @@ function GardenCard({id ,image ,name ,price}){
     };
     return(
 
-        <div className="gardencard">
+        <div className="plant-card-container">
         <ul>
         {plants.map(plant => (
           <li key={plant.id}>

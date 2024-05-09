@@ -1,8 +1,21 @@
 import React, { useState, useEffect } from 'react';
 
-
 const GardenCollection = () => {
-   
+  // Define state for any stateful variables you need
+  const [plants, setPlants] = useState([]);
+
+  // useEffect can be used for fetching data or any other side effects
+  useEffect(() => {
+    // Example: Fetch plants data from an API
+    fetch('http://localhost:6001/plants')
+      .then(response => response.json())
+      .then(data => {
+        setPlants(data);
+      })
+      .catch(error => {
+        console.error('Error fetching plants data:', error);
+      });
+  }, []);
 
   return (
     <div>
@@ -19,7 +32,5 @@ const GardenCollection = () => {
     </div>
   );
 };
- export default GardenCollection;
 
-
-
+export default GardenCollection;

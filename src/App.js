@@ -15,7 +15,7 @@ function App() {
     <Logo />;
     <AddPlant />
     <Search />
-
+    <GardenCollection />
     </>
    
   );

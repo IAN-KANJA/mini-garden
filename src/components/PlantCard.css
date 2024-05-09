@@ -1,0 +1,65 @@
+.gardencard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .gardencard ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .gardencard li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+  }
+  
+  .gardencard li:last-child {
+    border-bottom: none;
+  }
+  
+  .gardencard img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .gardencard p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .gardencard p:last-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3e8e41;
+  }
+  
+  .gardencard button {
+    padding: 10px 20px;
+    background-color: #3e8e41;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .gardencard button:hover {
+    background-color: #2f6d33;
+  }
