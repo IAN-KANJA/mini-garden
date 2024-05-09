@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react'
 
 function AddPlant() {
   return (
+
+    <div >AddPlant</div>
+  )
+
     <div className="new-plant-form">
       <h2>New Plant</h2>
       <p>Add in the description of the plant</p>
@@ -13,6 +17,7 @@ function AddPlant() {
       </form>
     </div>
   );
+
 }
 
 export default AddPlant;

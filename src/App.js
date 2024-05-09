@@ -1,10 +1,13 @@
 
 import './App.css';
 import AddPlant from './components/AddPlant';
+import GardenCollection from './components/GardenCollection';
 import Logo from './components/Logo';
 import Search from './components/SearchPlant';
+
 import GardenCollection from './components/GardenCollection';
 import { useEffect, useState } from 'react';
+
 
 
 
@@ -28,8 +31,8 @@ function App() {
 
     <Search />
 
+
     <GardenCollection plants={plants}/>
-    
 
     </>
    
