@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3af8bde63d8fa2d932b376455aaa632ff6645d22
 const Search = () => {
     return (
         <div className="searchbar">
@@ -11,6 +14,7 @@ const Search = () => {
             />
         </div>
     );
+<<<<<<< HEAD
 
 };
 =======
@@ -29,4 +33,9 @@ function Search({search,setsearch}) {
     </div>
 >>>>>>> b9069bdecf35811c7213a1899bbd3a0038bf1638
 
+=======
+
+};
+
+>>>>>>> 3af8bde63d8fa2d932b376455aaa632ff6645d22
 export d
