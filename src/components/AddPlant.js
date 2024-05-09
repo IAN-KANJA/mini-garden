@@ -2,7 +2,7 @@ import React from "react";
 
 function AddPlant() {
   return (
-    <div className="new-plant-form">
+    <div className="new-plant-form-1">
       <h2>New Plant</h2>
       <p>Add in the description of the plant</p>
       <form>
