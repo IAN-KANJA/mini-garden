@@ -24,8 +24,10 @@ function App() {
     <>
    
     <Logo />;
-    <AddPlant />
+    <AddPlant /> 
+
     <Search />
+
     <GardenCollection plants={plants}/>
     
 

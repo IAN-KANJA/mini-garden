@@ -1,9 +1,9 @@
 import React from "react"
 
-function GardenCard({id, img, name, price}){
+function GardenCard({id, image, name, price}){
     return(
         <div>
-          <img src={img} 
+          <img src={image} 
           alt="" />
           <div>
             <h4>{name}</h4>

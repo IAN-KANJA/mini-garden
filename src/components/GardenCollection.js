@@ -1,5 +1,5 @@
 import React from 'react';
-import GardenCard from './PlantCard';
+import GardenCard from './GardenCard';
 
 
 
