@@ -26,7 +26,7 @@ const filteredPlants = plants.filter((plant) => plant.name.toLowerCase().include
   return (
     <>
    
-    <Logo />;
+    <Logo />
     <AddPlant />
     <Search searchInput={searchInput} setsearchInput={setSearchInput}/>
 

@@ -41,6 +41,12 @@
       "name": "White-Roses",
       "image": "https://rosefarmers.com/cdn/shop/products/Lifestyle_Candlelight_3_1_1_290b39c4-e210-46ff-bc16-20751ba59c21_1024x1024@2x.jpg?v=1665600800",
       "price": 550
+    },
+    {
+      "name": "Roses",
+      "image": "https://m.media-amazon.com/images/I/61mMytOBsJL._AC_SL1024_.jpg",
+      "price": "599",
+      "id": 9
     }
   ]
 }

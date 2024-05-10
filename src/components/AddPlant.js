@@ -42,10 +42,10 @@ function AddPlant() {
       .catch((error) => console.log("Error:", error.message));
   };
   return (
-    <div className="new-plant-form">
+    <div className="new-plant-form font-bold text-center italic bg-green-950 text-yellow-100">
       <h2>New Plant</h2>
       <p>Add in the description of the plant</p>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="text-black">
         <input
           type="text"
           name="name"
@@ -68,7 +68,7 @@ function AddPlant() {
           value={plantData.price}
           onChange={handleChange}
         />
-        <button type="submit">Add Plant</button>
+        <button type="submit" className="bg-green-950 text-yellow-100">Add Plant</button>
       </form>
     </div>
   );
