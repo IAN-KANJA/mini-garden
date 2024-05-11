@@ -31,7 +31,7 @@ We used tailwind to style the project
  npm start to open broswe
 
  # contributions
- Ian Njau
- lynn wanaina
- Anwar Yassin
+ Ian Njau,
+ lynn wanaina,
+ Anwar Yassin,
 Jason  Okingo
